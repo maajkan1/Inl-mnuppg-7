@@ -1,37 +1,78 @@
 body {
+  font-family: system-ui;
   background-color: rgb(0, 102, 104);
+}
+
+.topnav {
+  background-color: rgb(0, 75, 77);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.botnav {
+  background-color: rgb(0, 75, 77);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.botnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.botnav a:hover {
+  background-color: white;
+  color: black;
 }
 
 #welcomemsg {
   color: white;
   margin-top: 50px;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-#myinfo {
-  margin-top: 20px;
-  font-size: large;
-  margin-left: 30%;
-  margin-right: 30%;
-  border: 30px solid white;
-  background-color: white;
-  border-radius: 30px;
+  text-align: center;
 }
 
 #mepic {
+  text-align: center;
+}
+
+#mepic img {
   border-radius: 50%;
   border: 3px solid white;
-  margin-left: 44%;
-  margin-right: 30%;
+  margin-bottom: 20px;
+}
+
+#myinfo {
+  font-size: large;
+  text-align: center;
+  border: 30px solid white;
+  background-color: white;
+  border-radius: 30px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: system-ui;
 }
 
 /* The actual timeline (the vertical ruler) */
